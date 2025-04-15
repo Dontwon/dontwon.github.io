@@ -1,0 +1,13 @@
+@import url('auth-base.css');
+
+.auth-container h2 {
+    color: #007bff;
+}
+
+.auth-container button {
+    background-color: #007bff;
+}
+
+.auth-container button:hover {
+    background-color: #0056b3;
+}
