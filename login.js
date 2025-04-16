@@ -15,7 +15,7 @@ document.getElementById("loginForm").addEventListener("submit", function (event)
     if (matchingUser) {
         // Optionally store logged-in user in localStorage to remember the session
         localStorage.setItem("loggedInUser", enteredUsername);
-        window.location.href = "index.html"; // Redirect to homepage
+        window.location.href = "home.html"; // Redirect to homepage
     } else {
         document.getElementById("loginMessage").textContent = "Invalid username or password.";
     }
